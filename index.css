@@ -1,0 +1,229 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+  }
+  body{
+    background-color: white;
+      min-height: 100vh;
+    margin: 0 1rem;
+  }
+  h1{
+      text-transform: uppercase;
+    color: blue;
+    padding: 3rem 0;
+  }
+  input{
+    margin-bottom: 2rem;
+      font-family: inherit;
+      border-radius: 50px;
+      padding: .5rem;
+    width: 500px;
+    outline: none;
+    font-size: 2rem;
+    border: 2px solid #333;
+    color: #0B4268;
+    transition: all .3s ease;
+  }
+  input:focus {
+    border: 2px solid #61DAFB;
+  }
+  #results {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .country-item{
+    border-radius: 25px;
+    background: linear-gradient(90deg,#61DAFB 0%, rgb(10, 167, 211) 100%);
+      box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      padding: 0.3rem;
+    width: 380px;
+    margin: .3rem auto;
+    color: #333
+  }
+  .country-flag{
+    width: 2.5rem;
+    height: 1.7rem;
+    margin-left: 0.5rem;
+    border-radius: 50px;
+    box-shadow: 1px 1px 3px #333;
+  }
+  .country-name{
+      flex: 2;
+      margin: 0 5px;
+      text-align: center;
+  }
+  .country-info{
+      border-left: 1px solid #333;
+      padding: 0 1rem;
+      flex: 1;
+      text-align: center;
+  }
+  .country-population{
+    width: 100px;
+  }
+  h2{
+    font-size: 1.1rem;
+  }
+  h5{
+    font-size: .7rem;
+    color: rgb(17, 80, 97);
+  }
+  .country-population-text{
+      text-transform: uppercase;
+  }
+  
+  ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  }
+  ul a {
+    float: left;
+
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+
+#email{
+  float: left;
+  border: 0px;
+  width: 200px;
+  height: 30px;
+  font-size: 10px;
+}
+h2 strong{display: block;
+  margin-top: 40px;
+
+  
+
+}
+#text{
+  float: left;
+}
+
+.menuo1{
+display: grid;
+ grid-template-columns: auto auto auto;
+
+}
+.inscrit{
+display: block;
+display: flex;
+justify-content: space-around;
+}
+#inscrit{
+  width: 60px;
+  height: 40px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0B4268;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.col-12:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+.column img:hover {
+  opacity: 1;
+}
+
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.navbar{
+  background-color:rgba(212, 212, 212, 0.644);
+  border-radius: 8px;
+  position: fixed; 
+  top: 0; 
+  width: 97%; 
+  height: 10%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+footer{
+  background-color:rgba(212, 212, 212, 0.644);
+  border-radius: 8px;
+}
+.propos{
+  column-count: 3;
+}
+.container{
+background-image: url('arriére.jpeg');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+
+}
